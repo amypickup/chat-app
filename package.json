@@ -1,0 +1,13 @@
+{
+  "name": "grailed-chat-app",
+  "version": "0.0.1",
+  "description": "chat app for grailed code challenge",
+  "dependencies": {
+    "express": "^4.15.2",
+    "mongo-models": "^1.1.0",
+    "mongodb": "^2.2.24",
+    "mongoose": "^4.9.0",
+    "nodemon": "^1.11.0",
+    "socket.io": "^1.7.3"
+  }
+}

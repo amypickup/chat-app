@@ -1,0 +1,16 @@
+.container {
+	width: auto;
+	max-width: 680px;
+	padding: 0 15px;
+}
+.footer {
+    position: absolute;
+    width: 100%;
+	max-width: 680px;
+    bottom: 0;
+    height: 60px;
+    background-color: #f5f5f5;
+}
+#messages { list-style-type: none; margin: 0; padding: 0; }
+#messages li { padding: 5px 10px; }
+#messages li:nth-child(odd) { background: #eee; }

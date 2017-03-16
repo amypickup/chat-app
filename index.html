@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Grailed Chat App</title>
+	<link rel="stylesheet" type="text/css" href="/css/index.css">
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+</head>
+<body>
+	<div class="container">
+		<div class="page-header">
+			<h1>Chat App Submission<h1>
+			<h4> Amy Pickup </h4>
+		</div>
+		<ul id="messages"></ul>
+		<footer class="footer">
+			<form action="/users" method="POST" class="form-inline">
+				<div class="input-group col-md-10" >
+					<input id="m" type="text" name="message" autocomplete="off" class="form-control"/>
+				</div>
+				<button type="submit" class="btn btn-primary">Send</button>
+			</form>
+		</footer>
+	</div>
+ 
+	<script src="/socket.io/socket.io.js"></script>
+	<script src="https://code.jquery.com/jquery-1.11.1.js"></script>
+	<script src="/js/chat.js"></script>
+</body>
+</html>
