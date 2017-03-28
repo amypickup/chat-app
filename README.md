@@ -1,5 +1,5 @@
 # chat-app
-## Using socket.io and node to make a primitive chat app
+*Using socket.io and node to make a primitive chat app*
 
 ### Prerequisites
 * [Install Node](https://nodejs.org/en/download/) using their instructions
